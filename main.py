@@ -19,6 +19,13 @@ form="""
 	<input name="wb" type="radio" >
 	<input name="wc" type="radio" >
 	<input name="wd" type="radio" >
+	
+	<div>
+		what is your birthday?
+		<input type="text" name="month">
+		<input type="text" name="day">
+		<input type="text" name="year">
+	</div>
 
 	<input type="submit" >
 </form>
