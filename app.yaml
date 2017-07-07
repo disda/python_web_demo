@@ -4,5 +4,8 @@ threadsafe: true
 
 handlers:
 - url: /.*
-  script: main.app
+  script: signup.app
 
+libraries:
+- name: jinja2
+  version:  latest
